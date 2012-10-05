@@ -1,0 +1,19 @@
+{
+    "name"              : "doctrine-tut",
+    "description"       : "My Silex/Doctrine Tutorial",
+    "author"            : "Steve Popoola",
+    "require"           : {
+        "silex/silex"           : "1.0.*",
+        "taluu/doctrine-orm-provider" : "*",
+        "php"                   : ">=5.3.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Bugs": "src/",
+            "Bugs\\DoctrineMigrations": "src/db"
+        }
+    },
+
+    "minimum-stability": "dev"
+}
